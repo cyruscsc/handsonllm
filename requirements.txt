@@ -1,0 +1,43 @@
+# Data handling
+numpy>=1.26.4
+pandas>=2.2.3
+datasets>=2.21.0
+
+# Environment
+jupyterlab>=4.3.5
+ipywidgets>=8.1.5
+
+# Hard dependencies throughout the entire book
+torch>=2.6.0
+transformers>=4.49.0
+sentence-transformers>=3.4.1
+matplotlib>=3.10.1
+scikit-learn>=1.6.1
+sentencepiece>=0.2.0
+nltk>=3.9.1
+evaluate>=0.4.3
+scipy>=1.13.1
+
+# Cloud providers
+openai>=1.65.4
+cohere>=5.14.0
+
+# Chapter-specific dependencies
+datamapplot>=0.5.1
+faiss-cpu>=1.10.0
+bertopic>=0.16.4
+annoy>=1.17.3
+llama_cpp_python>=0.3.7 -C cmake.args="-DLLAMA_METAL=ON"
+numexpr>=2.10.2
+langchain>=0.3.20
+langchain-community>=0.3.19
+langchain-openai>=0.3.7
+duckduckgo-search>=7.5.0
+gensim>=4.3.3
+setfit>=1.1.1
+seqeval>=1.2.2
+trl>=0.15.2
+peft>=0.14.0
+accelerate>=1.4.0
+bitsandbytes>=0.42.0
+mteb>=1.36.8
