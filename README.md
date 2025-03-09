@@ -7,7 +7,7 @@ This repository contains my implementations of the projects from [Hands-On Large
 ## Table of contents
 
 ```
-In progress!
+└── 01 Introduction to Language Models
 ```
 
 ## Requirements
